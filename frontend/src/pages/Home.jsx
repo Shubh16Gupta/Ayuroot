@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./Home.css";
-import { Leaf, LogOut, User, Pill } from "lucide-react";
+import { Leaf } from "lucide-react";
 import shubh from '../images/shubh.png';
 import harsh from '../images/harsh.png';
 import shivansh from '../images/shivansh.png';
