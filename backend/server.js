@@ -6,11 +6,22 @@ require("dotenv").config();
 const PORT = process.env.PORT || 8000;
 
 
-const cors = require("cors");
+const allowedOrigins = [
+  process.env.FRONTEND_URL,
+  "http://localhost:3000"
+];
+
 app.use(cors({
-  origin: process.env.FRONTEND_URL || "http://localhost:3000",
+  origin: function(origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(null, true);
+    }
+  },
   credentials: true
 }));
+
 
 app.use(express.json());
 
