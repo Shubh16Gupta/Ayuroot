@@ -1,0 +1,233 @@
+.signup-wrapper {
+
+  height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  font-family: "Poppins", sans-serif;
+
+  background: linear-gradient(
+    135deg,
+    #e6f0ea 0%,
+    #d6e6dc 40%,
+    #c8d9cf 100%
+  );
+
+  position: relative;
+
+  overflow: hidden;
+
+}
+
+.signup-card {
+
+  width: 400px;
+
+  padding: 40px;
+
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.7);
+
+  backdrop-filter: blur(12px);
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+
+  text-align: center;
+
+  animation: fadeIn 0.6s ease;
+
+}
+
+.logo {
+
+  font-size: 32px;
+
+  font-weight: bold;
+
+  color: #16a34a;
+
+  margin-bottom: 10px;
+
+}
+
+.subtitle {
+
+  font-size: 14px;
+
+  margin-bottom: 30px;
+
+  color: #475569;
+
+}
+
+.signup-form {
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+.input-group {
+
+  position: relative;
+
+  margin-bottom: 20px;
+
+}
+
+.input-group input {
+
+  width: 100%;
+
+  padding: 14px;
+
+  border-radius: 10px;
+
+  border: 1px solid rgba(0,0,0,0.1);
+
+  outline: none;
+
+  background: rgba(255,255,255,0.9);
+
+  color: #1e293b;
+
+  font-size: 14px;
+
+}
+
+.input-group label {
+
+  position: absolute;
+
+  left: 14px;
+
+  top: 14px;
+
+  font-size: 14px;
+
+  color: #64748b;
+
+  pointer-events: none;
+
+  transition: 0.3s;
+
+}
+
+.input-group input:focus + label,
+.input-group input:valid + label {
+
+  top: -10px;
+
+  font-size: 12px;
+
+  color: #16a34a;
+
+}
+
+.signup-button {
+
+  padding: 14px;
+
+  border-radius: 10px;
+
+  border: none;
+
+  background: #16a34a;
+
+  color: white;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+}
+
+.signup-button:hover {
+
+  background: #15803d;
+
+  transform: translateY(-2px);
+
+}
+
+.footer-text {
+
+  margin-top: 20px;
+
+  font-size: 14px;
+
+  color: #475569;
+
+}
+
+.footer-text a {
+
+  color: #16a34a;
+
+  font-weight: bold;
+
+  text-decoration: none;
+
+}
+
+.circle {
+
+  position: absolute;
+
+  border-radius: 50%;
+
+  background: rgba(255,255,255,0.3);
+
+}
+
+.circle1 {
+
+  width: 200px;
+
+  height: 200px;
+
+  top: -50px;
+
+  left: -50px;
+
+}
+
+.circle2 {
+
+  width: 300px;
+
+  height: 300px;
+
+  bottom: -100px;
+
+  right: -100px;
+
+}
+
+@keyframes fadeIn {
+
+  from {
+
+    opacity: 0;
+
+    transform: translateY(20px);
+
+  }
+
+  to {
+
+    opacity: 1;
+
+    transform: translateY(0);
+
+  }
+
+}

@@ -1,0 +1,18 @@
+{
+  "name": "ayuroot",
+  "version": "1.0.0",
+  "description": "Ayurveda Chatbot - Frontend and Backend",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm --prefix frontend install && npm --prefix backend install",
+    "build": "npm --prefix frontend run build",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "start": "cd backend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}

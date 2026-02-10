@@ -1,0 +1,300 @@
+/* =========================
+   INPUT SECTION - AYUROOT THEME
+   ========================= */
+
+.input-section {
+  background: rgba(255,255,255,0.95);
+  border-radius: 18px;
+  padding: 28px;
+  margin-bottom: 30px;
+
+  border: 1px solid rgba(102,126,234,0.15);
+
+  box-shadow:
+    0 8px 25px rgba(102,126,234,0.08);
+}
+
+.input-section h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  text-align: center;
+
+  margin-bottom: 25px;
+
+  background: linear-gradient(
+    135deg,
+    #667eea,
+    #764ba2
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* FIXED INPUT GROUP */
+
+.input-group {
+
+  display: grid;
+
+  grid-template-columns: 1fr 140px;
+
+  align-items: center;
+
+  gap: 15px;
+
+  margin-bottom: 16px;
+
+}
+
+
+/* LABEL */
+
+.input-group label {
+
+  font-weight: 600;
+
+  color: #2d3748;
+
+  font-size: 15px;
+
+  letter-spacing: 0.3px;
+
+}
+
+
+/* INPUT */
+
+.input-group input {
+
+  width: 100%;
+
+  padding: 10px 12px;
+
+  border-radius: 10px;
+
+  border: 2px solid #e2e8f0;
+
+  font-size: 15px;
+
+  font-weight: 600;
+
+  background: #f8fafc;
+
+  text-align: center;
+
+  transition: all 0.25s ease;
+
+}
+
+
+/* HOVER */
+
+.input-group input:hover {
+
+  border-color: #667eea;
+
+  background: #f0f3ff;
+
+}
+
+
+/* FOCUS */
+
+.input-group input:focus {
+
+  outline: none;
+
+  border-color: #667eea;
+
+  background: white;
+
+  box-shadow:
+    0 0 0 4px rgba(102,126,234,0.15);
+
+}
+
+
+/* BUTTON - AYUROOT STYLE */
+
+.submit-btn {
+
+  margin-top: 20px;
+
+  width: 100%;
+
+  padding: 14px;
+
+  border-radius: 12px;
+
+  border: none;
+
+  font-size: 16px;
+
+  font-weight: 700;
+
+  color: white;
+
+  background: linear-gradient(
+    135deg,
+    #667eea,
+    #764ba2
+  );
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+
+  box-shadow:
+    0 8px 20px rgba(102,126,234,0.35);
+
+}
+
+.submit-btn:hover:not(:disabled) {
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 14px 30px rgba(102,126,234,0.45);
+
+}
+
+.submit-btn:disabled {
+
+  opacity: 0.6;
+
+}
+/* =========================
+   PAGE HEADING - AYUROOT THEME
+   ========================= */
+
+.lifestyle-container h1 {
+
+  text-align: center;
+
+  font-size: 2.4rem;
+
+  font-weight: 800;
+
+  margin-bottom: 30px;
+
+  background: linear-gradient(
+    135deg,
+    #667eea,
+    #764ba2
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  letter-spacing: 0.5px;
+}
+
+
+
+/* =========================
+   RESULT CONTAINER - AYUROOT THEME
+   ========================= */
+
+.result-container {
+
+  background: rgba(255,255,255,0.96);
+
+  border-radius: 18px;
+
+  padding: 28px;
+
+  margin-top: 25px;
+
+  border: 1px solid rgba(102,126,234,0.15);
+
+  box-shadow:
+    0 10px 30px rgba(102,126,234,0.12);
+
+}
+
+
+
+/* STATUS CARD */
+
+.status-card {
+
+  padding: 16px;
+
+  border-radius: 12px;
+
+  font-weight: 700;
+
+  font-size: 16px;
+
+  margin-bottom: 20px;
+
+  text-align: center;
+
+}
+
+
+/* NEED IMPROVEMENT */
+
+.status-need {
+
+  background: rgba(255, 99, 132, 0.1);
+
+  color: #c53030;
+
+  border: 1px solid rgba(255, 99, 132, 0.3);
+
+}
+
+
+/* MODERATE */
+
+.status-moderate {
+
+  background: rgba(255, 206, 86, 0.15);
+
+  color: #b7791f;
+
+  border: 1px solid rgba(255, 206, 86, 0.35);
+
+}
+
+
+/* BALANCED */
+
+.status-balanced {
+
+  background: rgba(72, 187, 120, 0.15);
+
+  color: #2f855a;
+
+  border: 1px solid rgba(72, 187, 120, 0.35);
+
+}
+
+
+
+/* RESULT HEADINGS */
+
+.result-container h3 {
+
+  margin-top: 20px;
+
+  margin-bottom: 12px;
+
+  font-size: 1.4rem;
+
+  font-weight: 700;
+
+  background: linear-gradient(
+    135deg,
+    #667eea,
+    #764ba2
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
